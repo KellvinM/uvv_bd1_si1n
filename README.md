@@ -9,3 +9,4 @@
 - Aprendizado do aluno em questão de resolver problemas que podem ocorrer ao longo do processo 
 - Resoluções de conjunto de problemas ou exercícios relacionados a um determinado tema ou assunto estudado.
 - Aperfeiçoamento na linguagem SQL 
+- O aprendizado sobre sistemas de controles de versões, em especial o Git e o serviço web GitHub.
