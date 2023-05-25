@@ -2,4 +2,6 @@
 <h2 align="center"> Aluno: Kellvin Miranda Macedo </h2> 
 <h2 align="center"> Professor: Abrantes Araújo Silva Filho </h2> 
 <h2 align="center"> Pset 1 </h2> 
-Repositório criado para colocar arquivos e informações sobre os Psets
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
