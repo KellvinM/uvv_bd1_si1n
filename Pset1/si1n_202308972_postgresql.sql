@@ -40,10 +40,10 @@ SELECT CURRENT_SCHEMA;
 SHOW SEARCH_PATH;
 
 --Ajustando o esquema padrão e conferindo se foi colocado de modo correto;
-SET SEARCH_PATH         TO    lojas, kellvin, public;
+SET SEARCH_PATH         TO    lojas,"$user", public;
 SHOW SEARCH_PATH;
 ALTER USER kellvin
-SET SEARCH_PATH         TO    lojas, kellvin, public;
+SET SEARCH_PATH         TO    lojas, "$user", public;
 
 
 --Criação do conteudo do banco de dados;
