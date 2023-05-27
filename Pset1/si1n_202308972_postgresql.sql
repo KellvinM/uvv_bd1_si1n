@@ -1,4 +1,10 @@
-  --Deletando banco de dados caso exista;
+/*  
+Primeiro segmento
+
+Nesse bloco criamos e configuramos o Banco de dados,  usuario e o esquema que sera utilizado
+*/
+
+--Deletando banco de dados caso exista;
 DROP DATABASE IF EXISTS uvv;
 
 --Deletando Usuario caso exista;
@@ -45,6 +51,15 @@ SHOW SEARCH_PATH;
 ALTER USER kellvin
 SET SEARCH_PATH         TO    lojas, "$user", public;
 
+
+/*  
+Fim do Primeiro segmento
+*/
+
+
+/*  
+Segundo Segmento
+*/
 
 --Criação do conteudo do banco de dados;
 
@@ -264,6 +279,16 @@ COMMENT ON COLUMN lojas.pedidos_itens.preco_unitario  IS  'coluna para mostrar o
 COMMENT ON COLUMN lojas.pedidos_itens.quantidade      IS  'coluna para mostrar a quantidade de pedidos';
 COMMENT ON COLUMN lojas.pedidos_itens.envio_id        IS  'coluna com numero identificador para cada envio';
 
+/*  
+Fim do Segundo Segmento
+*/
+
+
+/*  
+Terceiro segmento
+
+Nesse bloco todos os relacionamentos entre as tabelas serão criados.
+*/
 
 --Criação de um Relacionamento entre a tabela estoques e a tabela produtos, atraves da chave estrangeira produto_id;
 ALTER TABLE lojas.estoques ADD CONSTRAINT produtos_estoques_fk
@@ -336,3 +361,7 @@ REFERENCES lojas.pedidos (pedido_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
+
+/*  
+Fim do Terceiro segmento
+*/
