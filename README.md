@@ -10,4 +10,6 @@
 - Resoluções de conjunto de problemas ou exercícios relacionados a um determinado tema ou assunto estudado.
 - Aperfeiçoamento na linguagem SQL 
 - O aprendizado sobre sistemas de controles de versões, em especial o Git e o serviço web GitHub.
+## O Pset foi um trabalho que trouxe minha disciplina e entendimento sobre o projeto inteiro em geral.
+## Com isso aprendi e me virei na documentação do postgres, criei o script global e acredito que fiz um otimo trabalho com todo o processo feito.
 
